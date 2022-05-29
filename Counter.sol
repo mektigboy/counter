@@ -1,7 +1,7 @@
-// SPDX-Solidity-License: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.14;
 
-function Counter {
+contract Counter {
   uint public count;
 
   function inc() external {
